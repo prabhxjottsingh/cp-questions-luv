@@ -1,0 +1,1 @@
+Always start from index 1 in prefix sum arrays to avoid any kind of complications later on

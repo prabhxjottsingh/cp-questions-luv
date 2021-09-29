@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+const int n = 1e5 + 10;
+long long fact[n];
+
+int main(){
+   fact[0] = fact[1] = 1;
+   for(int i=2; i<n ; i++)
+      fact[i] = i * fact[i-1];
+   int t;
+   cin>>t;
+   while(t--){
+      int x;
+      cin>>x;
+      cout<<fact[x]<<endl;
+   }
+   return 0;
+}
+
+// Pre computation technique - compute the answer before we need to print it

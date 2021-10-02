@@ -1,0 +1,6 @@
+when a function calls itself, then it is called recursion.
+internally recursion uses stack to run the program and store data
+
+most the times programs including recursions give segmentation fault as error, because memory in stack gets full.
+
+always include a base condition in recursive function to avoid segmenatation fault

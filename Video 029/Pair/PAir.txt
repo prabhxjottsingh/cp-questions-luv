@@ -1,0 +1,12 @@
+Pair - Store two values,
+
+Pair<string, int> p;, pair<double, long long> p;
+Pairs can be of containers or of datatypes, 
+
+p = make_pair("abs", 23);
+cout<<p.first;
+cout<<p.second;
+
+p = {2,"abs"};
+
+used to maintain relatinos betweeen twon things

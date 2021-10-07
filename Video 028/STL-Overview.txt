@@ -1,0 +1,46 @@
+STL - Standard Template Library
+Four parts:
+
+1.Containers - Pre-emplemented DS in STL, 
+ 
+ -Sequential DS:
+  -Vectors
+  -Stacks
+  -Queue
+  -Pair(not a container) (basically, a class in C++)
+
+-Ordered DS:
+ -Maps
+ -Multi-Maps
+ -Multiset
+
+-Unordered DS:
+ -Unordered Maps
+ -Unordered Set
+
+--Nested Containers:
+  --vector<vector<int>>
+  --map<int, vector<int>>
+  --set<pair<int,string>>
+  --vector<map<int,set<int>>>
+
+2. Iterators - are basically similar to pointers, but they are specially implemented to point to the elements of the containers in STL 
+               -points to memory address if container
+               -begin(), end()
+               -syntax to declare iterators: vector<itn>::iterator it;
+               -continuity for containers
+
+3. Algotrithms - (Very V.V. Important), pre-defined algorithms
+                  -upper bound
+                  -lower bound
+                  -sort(comparator)
+                  -max_element
+                  -min_element
+                  -accumulate
+                  -reverse
+                  -count
+                  -find
+                  -next_permutations
+                  -prev_permutations, etc.,etc.,etc.
+
+4. Functors - basically classes in C++, that can be used as a functions, (not much imp. for Competitive Coding, thus it is being skipped in this course)

@@ -1,0 +1,33 @@
+maps and sets are used a lot in CP
+We will learn about: 1.Normal Maps 2.Unordered Maps 3.Multimaps(just basic, not used CP)
+
+
+
+map is a datastructure which stores which stores two things, one is of key and the other thing is of value datatypes.
+
+mapping from a key to value is done
+Each Element of map is a pair, and elements aren't continuous, so we prefer using it++ rather than it+1
+
+lets assume key in of int type and value is of string type, then assume like we need to store int value with corresponding to string one like:
+key   value 
+1     abc
+2     bcs
+3     cba
+
+here 1,2,3 are keys and the values stored correspondin gto thema re abc, bcs, cba
+
+simple as well as unordered maps create mapping from key to values only, the only difference between both of them is just difference in the way they store things.
+
+in normal maps the things are stored in sorted order only, with respect to the keys.
+
+simple maps internal implementations is done on the basis of the red black trees.(just for info, right now)
+
+every element of a map is a pair, i.e. it stores one key and one value
+
+maps are not of contiuous nature
+
+Normal Maps: in normal maps values are stored in sorted manner according the key
+(with the help of red black trees, internal implementations are done on this basis, it is a complex type of data structure)
+
+Maps are mainly used in case of finding frequency.
+

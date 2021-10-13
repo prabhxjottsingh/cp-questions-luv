@@ -1,0 +1,14 @@
+Unordered Maps are mostly similar to maps only, 
+
+functions and other things are similar to ordered maps only,
+
+follwoing are a little bit differences between ordered and unordered maps:
+-in built implementations
+-time complexity
+-valid keys datatype
+
+ordered maps use trees
+whereas unordered maps use hash table
+
+complex data structures like vector, pair, etc. cannot be used as keys in case of unordered maps,
+but they can be used as key values in case of ordered maps

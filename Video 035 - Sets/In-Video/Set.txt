@@ -1,0 +1,8 @@
+set is similar to maps, the only difference is like, that if we remove value part from the masp, then only key part i remained which is called a set
+
+set is like a collection of data of same datatype
+
+sets are of 3 types:
+-normal set -> use to order the data present in it
+-unorderd set -> use the display the data not in any particular order
+-multiset ->

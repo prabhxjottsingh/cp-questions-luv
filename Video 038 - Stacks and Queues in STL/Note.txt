@@ -1,0 +1,18 @@
+
+
+Stacks is used in many ways for example:
+-in finding NGE (next greater element)
+-checking balanced Parenthesis
+
+Queues is also used in many ways for example
+-in graphs algorithms,
+and many more, they are very important DS, with respect to CP
+
+STACKS
+LIFO - last in first out
+we have access to things from the stack: top element, size of stack
+operation - insertion(push), deletion(pop),  
+
+QUEUES
+FIFO - first in first out
+operations - insertion (push(always at end)), deletion (pop(always from start)), front(to see element at first)

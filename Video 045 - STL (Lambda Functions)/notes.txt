@@ -1,0 +1,21 @@
+This videos includes, lambda functions, 
+there are three types of functions in this algorithm:
+1. all_of - without loop, checks if the condition is satisfied by each element of the data structure or not
+2. any_of - wihtout loop, checks if anyone of the condition is true or not, if a single element satisfies the condition, then the function returns true
+3. none_of - without loop ,cehcks the condition, if all condition return false for the condition then the funciton returns true
+
+this functions basically returns bool values, on the basis of, if the condition given by the user, is true or false for each 
+and every element of the data structure
+
+lambda function syntax:
+
+cout << [](int x){return x+2;}(2)
+
+//simple code
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    auto sum = [](int x, int y) {return x+y;};
+    cout<<sum(3,4);
+}

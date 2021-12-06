@@ -18,10 +18,8 @@ int main(){
         int mid = (high + low)/2;
         if(v[mid] < to_find)
             low = mid + 1; 
-        else if(v[mid] > to_find)
-            high = mid - 1;
         else
-            break;
+            high = mid;
     }
     if(v[low] == to_find)
         cout<<low<<endl;

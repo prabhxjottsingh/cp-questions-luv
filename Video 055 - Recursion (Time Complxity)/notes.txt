@@ -1,0 +1,24 @@
+Time Complexity in case of recursion:
+
+Step 1: Calculate number of recursive calls
+
+Step 2: Calculate the time complexity in every recursive call
+
+
+For Example:
+
+:Time Complexity: O(n)
+ int fun(int n){
+    if (n == 0)
+        return n;
+    cout<<n<<endl;
+    return fun(n-1);
+ }
+
+ Time Complexity: For Genearte Parenthesis:
+
+ O( 2 ^ (n+2) ) -> Every Function call has 2 function calls within itself only
+
+ Time Complxity: Subset Generation -> O(2^n)
+
+ Merge Sort: O(n * log n) -> Log n function calls, and each function call has time complexity: O(n)

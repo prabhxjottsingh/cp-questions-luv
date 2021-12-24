@@ -1,0 +1,11 @@
+To be Discuss: 
+
+-Modular Arithmatic
+-Binary Number
+-Bits
+-Working With Bits
+-Bits Masking
+-Finding GCD
+-Binary Exponential
+-Prime Numbers and Divisors
+-Sieve Algorithm (Algo for Prime Numbers)

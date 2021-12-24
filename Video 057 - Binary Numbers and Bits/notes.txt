@@ -1,0 +1,11 @@
+important things to keep in mind:
+
+-last bit of every odd number is 1 and that of every of even number is 0
+-Basic Operation 
+ -&(AND) => if one of the bit is zero then final ans will also be zero
+ -^(OR) => if one of the bit is one then final ans will also be 1\
+ -Left Shift (<<) => acts on binary
+ -Rigth Shift (>>) => ((6>>1) = 3)
+
+numbers are of 32 bits in int type
+maximum number that can be produced using 4 bits = (2^4 - 1 )

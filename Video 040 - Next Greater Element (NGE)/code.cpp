@@ -65,3 +65,70 @@ int main()
     for (i = 0; i < n; i++)
         cout << vect[i] << " " << ((nge[i] == (-1)) ? -1 : vect[nge[i]]) << endl;
 }
+
+//better Version
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define all(v) v.begin(), v.end()
+#define oneDay                        \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);
+
+vector<int> ngeFunction(vector<int> v)
+{
+    vector<int> ans;
+    ans.push_back(-1);
+    stack<int> st;
+    int n = v.size();
+    st.push(v[n - 1]);
+    for (int i = n - 2; i >= 0; i--)
+    {
+        if (st.top() > v[i])
+        {
+            ans.push_back(st.top());
+            st.push(v[i]);
+        }
+        else
+        {
+            while ((!st.empty()) && (st.top() < v[i]))
+                st.pop();
+            if (st.empty())
+            {
+                ans.push_back(-1);
+            }
+            else
+                ans.push_back(st.top());
+            st.push(v[i]);
+        }
+    }
+    reverse(all(ans));
+    return ans;
+}
+
+void solve()
+{
+    int i, n;
+    cin >> n;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++)
+        cin >> v[i];
+    vector<int> ans = ngeFunction(v);
+    for (int i = 0; i < n; i++)
+        cout << v[i] << " " << ans[i] << endl;
+}
+
+int main()
+{
+    oneDay
+        ll tc = 1;
+    // cin>>tc;
+    while (tc--)
+    {
+        solve();
+        cout << endl;
+    }
+    return 0;
+}

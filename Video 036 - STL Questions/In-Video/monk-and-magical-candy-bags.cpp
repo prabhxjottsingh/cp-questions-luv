@@ -28,3 +28,49 @@ int main()
     }
     return 0;
 }
+
+//Using Priority Queue
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define all(v) v.begin(), v.end()
+#define oneDay                        \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);
+
+void solve()
+{
+    ll n, i, k;
+    cin >> n >> k;
+    vector<ll> v(n);
+    priority_queue<ll> s;
+    for (i = 0; i < n; i++)
+    {
+        cin >> v[i];
+        s.push(v[i]);
+    }
+    ll count = 0;
+    while (k--)
+    {
+        ll x = s.top() / 2;
+        // cout << s.top() << " ";
+        count += s.top();
+        s.pop();
+        s.push(x);
+    }
+    cout << count;
+}
+
+int main()
+{
+    oneDay
+        ll tc = 1;
+    cin >> tc;
+    while (tc--)
+    {
+        solve();
+        cout << endl;
+    }
+    return 0;
+}

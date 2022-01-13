@@ -1,4 +1,4 @@
-//For the better understanding of this code watch this luv's video he has explained things in an exeptional way, really thanks a lot to him for this :)
+//For the better understanding of this code watch this luv's video he has explained things in an exceptional way, really thanks a lot to him for this :)
 //Video Link: https://www.youtube.com/watch?v=wpWGDHmpbgA&list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-&index=63
 #include <bits/stdc++.h>
 using namespace std;

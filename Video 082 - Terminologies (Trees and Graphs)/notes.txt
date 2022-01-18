@@ -1,0 +1,20 @@
+vertex: circle type thing or we can simply say a point in graph is called vertex
+edge: line joining two vertices
+
+graph: collection of vertices and edges
+
+edges can be bi-directional or uni-directional
+
+
+a graph with out any cycle is called tree
+
+cycle: 1->2->3->1 this is called a cycle
+a graph without any cycle is called a tree
+
+tree has n nodes, then number of edges = (n-1)
+
+connected components -> if we can reach x point from y point then this is a single connected connected components
+for example: 1-3-5-7-1 2-6 => here we have two connected components
+ => 1-3-5-7-1-2-6 => here we have a single connected component
+
+ untill now we have discussed undirected graphs only

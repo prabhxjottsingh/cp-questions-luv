@@ -1,0 +1,23 @@
+Divided into 3 parts:
+
+- Representation
+- Traversal
+- Algorithms
+
+Representation:
+-Matrix -> will just read about this only, not of much  use, just sometimes, when mentioned in question use it only
+-List -> Used most of the times, will learn in deep about it (Vectors of vectors)
+
+Traversal:
+-BFS: Breadth First Search
+-DFS: Depth First Search
+
+Algorithms:
+-Dijkstra (shortest distance if a single source from multiple sources)
+-Bellman-Ford (shortest distance iof multiple sources from multiple sources)
+                               <--Extra Topics-->
+-Disjoint Set Union
+-Minimum Spanning Tree
+-Directed Acyclic Graph
+-Topological Sort
+

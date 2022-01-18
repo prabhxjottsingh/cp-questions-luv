@@ -1,0 +1,14 @@
+if we can from one vertex to another and then from the that vertex come back to previous one, only then it is called a strongly connected component
+
+graph is also called forest
+
+directed graphs have some complex number of strongly connected components
+
+
+
+root in tree:
+child, parent, subtree, leaf node(nodes without chikd nodes)
+
+depth of a node -> ditance of a nide from root node is called dept of tree
+height: highest number if edges between root and leaf node
+lca (lowest common ancestor) -> nearest common parent of two nodes

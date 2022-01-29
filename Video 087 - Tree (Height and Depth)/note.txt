@@ -1,0 +1,7 @@
+height of a node = max. distance from nearest leaf node
+
+depth of a node - distance from the root node
+
+leaf node - node without children
+
+root node - parent of all vertices

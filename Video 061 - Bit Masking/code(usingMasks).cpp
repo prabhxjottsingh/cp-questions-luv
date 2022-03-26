@@ -1,4 +1,4 @@
-Question Link : https : //codeforces.com/blog/entry/73558
+//Question Link : https : codeforces.com/blog/entry/73558
 
 #include <bits/stdc++.h>
 using namespace std;

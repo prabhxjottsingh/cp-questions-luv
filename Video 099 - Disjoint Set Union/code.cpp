@@ -7,6 +7,7 @@ int size[N];
 
 void make(int a){
     parent[a] = a;
+    size[a] = 1;
 }
 
 int find(int a){
